@@ -1,0 +1,40 @@
+body {
+  background: white;
+  color: black;
+}
+
+/* changes the body attributes when user clicks the dark mode button */
+body.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+/* moves the button to the right of the screen */
+.toggle-button-container {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+/* highlights the correctly guessed word */
+.highlight {
+  background-color: yellow;
+}
+
+/* Styles for correct letters */
+.correct-letter {
+  color: green;
+}
+
+/* Styles for incorrect letters in correct positions */
+.incorrect-position {
+  color: yellow;
+}
+
+/* Styles for incorrect letters not in the word */
+.incorrect-letter {
+  color: grey;
+}
+
+#guesses-list {
+  font-size: 24px;
+}
