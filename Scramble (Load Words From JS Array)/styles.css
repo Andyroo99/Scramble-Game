@@ -1,0 +1,22 @@
+body {
+  background: white;
+  color: black;
+}
+
+/* changes the body attributes when user clicks the dark mode button */
+body.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+/* moves the button to the right of the screen */
+.toggle-button-container {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+/* highlights the correctly guessed word */
+.highlight {
+  background-color: #8B8989;
+  color: white;
+}
